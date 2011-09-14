@@ -1,3 +1,4 @@
+###### Plagiarised from Lea Verou's [Organizing a university course on modern Web development](http://leaverou.me/2010/07/organizing-a-university-course-on-modern-web-development/)
 -   Introduction
     -   Web application architecture
     -   How the HTTP protocol works
