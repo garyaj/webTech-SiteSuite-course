@@ -4,40 +4,31 @@
 
 -   A small web application example (an AJAX shopping cart)
     in order for the students to get an idea about how everything clicks together
--   Markup languages
-    -   SGML
-    -   DTDs
-    -   HTML and XHTML
-        -   Basic structure of an (X)HTML document
-        -   Content model, block vs inline elements
-        -   Basic HTML elements
-            -   headings & paragraphs
-            -   lists (ordered, unordered, definition lists)
-            -   tables
-            -   grouping elements (div & span)
 
-        -   Doctypes, the HTML5 doctype
-        -   The incentives behind XHTML & the future ((X)HTML 5)
-        -   (X)HTML Validation
-        -   HTML forms
-            -   How forms work, GET vs POST
-            -   Form controls, shared attributes
-            -   The various input types (+ the new ones HTML5 brings)
-            -   Other form controls (buttons, <select\> lists, textareas)
-            -   Basic form accessibility (labels & fieldsets)
+-   HTML(5)
+    -   Basic structure of an HTML document
+    -   Content model, block vs inline elements
+    -   Basic HTML elements
+        -   headings & paragraphs
+        -   lists (ordered, unordered, definition lists)
+        -   tables
+        -   grouping elements (div & span)
 
-        -   Working with Multimedia (old methods, HTML5 video & audio
-            elements, comparison)
-
-    -   XML and XPath, XQuery, XSLT
+    -   Doctypes, the HTML5 doctype
+    -   HTML Validation
+    -   HTML forms
+        -   How forms work, GET vs POST
+        -   Form controls, shared attributes
+        -   The various input types (+ the new ones HTML5 brings)
+        -   Other form controls (buttons, <select\> lists, textareas)
+        -   Basic form accessibility (labels & fieldsets)
 
 -   CSS
     -   CSS standards
     -   CSS rules
     -   Validation
     -   Adding CSS to a page (linking/embedding methods)
-    -   Media targeting (The media attribute, @media rules, media
-        queries)
+    -   Media targeting (The media attribute, @media rules, media queries)
     -   CSS selectors
         -   Introduction to the DOM
         -   Basic selectors (Universal selector, Type selector, Class
@@ -49,7 +40,6 @@
         -   Simple selectors & simple selector sequences
         -   Combinators (all 4)
         -   Selector grouping
-        -   XML namespaces & CSS
 
     -   Cascading & Inheritance
         -   The problem: Conflicts
@@ -70,23 +60,32 @@
         -   width & height
         -   Block level & inline level elements (reminder from the HTML
             lectures)
-        -   The *display*property
+        -   The *display* property
         -   border
         -   padding
         -   margin
 
     -   Positioning
-        -   The *position*property
+        -   The *position* property
         -   Positioning types (absolute, relative, fixed)
         -   z-index
         -   float
-        -   Problems with floats, the *clear*property
+        -   Problems with floats, the *clear* property
 
     -   Generated content
         -   ::before and ::after
         -   Static generated content
         -   Dynamic generated content (attributes & counters)
 
+
+-   Perl for web server side processing
+    -   Introduction to Perl syntax
+        - A whirlwind tour of Perl
+    -   Data types: scalar, array, hash
+    -   Subroutines
+    -   Regular expressions
+    -   Modules, esp. CGI.pm
+    -   Web form processing with Perl
 
 -   JavaScript
     -   Adding JS to a document
@@ -178,56 +177,25 @@
         -   When JS is disabled
         -   Feature detection
 
+### Topics for later expansion
 
--   Regular expressions
 -   Ajax (including data interchange formats, like JSON, other
     async data transmission techniques, including dynamic script
     loading & JSONP, usability concerns)
 -   SVG
 -   Server side web development
-    -   PHP (also covering OOP in PHP extensively)
     -   Database driven websites
     -   State & session management
     -   REST
-    -   SOAP
 
--   Web application security
+### Assignments
 
-***Note:****For brevity reasons, the lists above do not include introductory stuff such as:*
+The students were given an assignment for each section of the course:
 
--   *What’s X?*
--   *A brief history of X*
--   *Why use X?*
--   *etc*
-
-#### Lessons learned
-
-It’s very hard to momentarily change your mindset and try to
-imagine that you live in a modern, fully standards-based web
-development world, where old browsers, proprietary stuff, hacks and
-compatibility workarounds have no place. A world where IE doesn’t
-exist. However, it’s the world that all our material assumed, for
-the reasons stated above. And it’s beautiful, so much that it
-becomes addictive and makes you hate all these bugs &
-incompatibilities that we have to face today even more.
-
-### Homework
-
-The students were given 3 assignments throughout the semester, each
-covering:
-
--   1st assignment: HTML, CSS, XPath, XSLT
--   2nd assignment: JavaScript, Ajax, SVG
--   3rd assignment: Server side web dev + CSS, JavaScript, Ajax
-
-These homeworks accounted for 30% of their final grade (10% each),
-which probably should have been more.
-
-We searched for exercises on these topics from other universities
-but couldn’t find anything, so we made our own. I’ve translated
-them, in case someone finds them useful, given that there’s a great
-shortage of such material in the intertubes. You can get them
-through the links below, along with their complementary files.
+-   1st assignment: Write an unstyled HTML page for a personal website
+-   2nd assignment: Style the simple HTML page with CSS
+-   3rd assignment: Handle a CGI form (input and reply)
+-   4th assignment: Enhance page with JavaScript
 
 #### 1st assignment [[pdf](http://leaverou.me/wdclass/assignment1_en.pdf)] [[files](http://leaverou.me/wdclass/assignment1_en.zip)]
 
@@ -308,31 +276,6 @@ to life. We didn’t get many submissions, since most students were
 busy with other assignments these days but most of the ones we got
 were awesome, I had an extremely hard time picking the best one.
 
-#### Lessons learned
-
--   Most mistakes are not very original: They tend to appear over
-    and over again in unrelated assignments. Most of them are caused
-    either by ambiguities in the description or because the student
-    didn’t bother to read all of it. Also, the most frequent excuse for
-    not doing something right is “it wasn’t in the description!”. So,
-    they have to be as detailed as possible, including even stuff
-    that’s obvious to someone more experienced.
--   Plagiarism is not a myth, but a real and frequent problem.
-    Students copy from other students, from scripts posted online and
-    from any source they can get their hands on.
-    ![:(](http://leaverou.me/wp-includes/images/smilies/icon_sad.gif)
-    However, only teaching the standards makes it much easier to spot
-    (at least when it comes to copying from the internet) since most
-    scripts posted online have to account for browser
-    incompatibilities.
-
-### Labs
-
-We only held 3 hands-on lectures (2 hours each), due to time
-availability issues of everyone involved in the course. I taught
-the first 2 and another TA was responsible for the 3rd one. Details
-below:
-
 #### 1st lab [[final result](http://leaverou.me/wdclass/lab1/)]
 
 The students had to write an HTML file for the single page personal
@@ -348,37 +291,3 @@ in a .js file that had some parts missing (replaced by TODO
 comments as placeholders) to complete a very simple ajax rating
 widget.
 
-#### Lessons learned
-
--   Never provide downloadable slides with the things the students
-    must write by themselves prior to the lecture. They’ll just
-    copy-paste everything from the pdf, even if they have to fix
-    spacing afterwards. If you absolutely have to, make sure the text
-    is not selectable.
--   It takes students far more time to write code than you planned
-    for
--   When the students don’t understand something, most of them
-    won’t ask.
-    ![:(](http://leaverou.me/wp-includes/images/smilies/icon_sad.gif)
-    It’s best if you personally explain things to anyone having
-    difficulties, but there’s usually not enough time for that
-
-### Personal aftermath
-
--   I found out that I **love** teaching. Successfully helping a
-    student with a problem they had or something they did not
-    understand was sometimes enough to make my day. Preparing material
-    for the course –although exhausting– was one of the most
-    interesting and creative things I have ever done. Even the actual
-    teaching is thrilling. It’s very challenging to try to keep the
-    students’ interest, since most of them will resort to chatting with
-    their buddies instead of paying attention way more easily than
-    professionals would during a conference talk. However, if you
-    manage to do so, it can be quite rewarding.
--   I **hate** grading. It’s boring, time-consuming, carries a lot
-    of responsibility and you have to ensure every point you deduct is
-    justified, because you might have to defend your judgement in case
-    a student complains. Sometimes it can also freak you out completely
-    (“OMGWTF, how could they understand it so wrong?? Why didn’t they
-    ask?”) These strips sum it up perfectly (and with a good dose of
-    humor):
