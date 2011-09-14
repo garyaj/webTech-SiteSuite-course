@@ -2,10 +2,10 @@
 -   Introduction
     -   Web application architecture
     -   How the HTTP protocol works
-    -   Objectives: to give simple explanation of how the web works
-        Process: Lecture with slides; student explores web page via browser
-        Outcome: Student can open an HTML document in a browser as source code
-                 and name or indicate the various features of the document.
+        -   Objectives: to give simple explanation of how the web works
+        -   Process: Lecture with slides; student explores web page via browser
+        -   Outcome: Student can open an HTML document in a browser as source code
+                     and name or indicate the various features of the document.
 
 -   A small web application example (an AJAX shopping cart)
     in order for the students to get an idea about how everything clicks together
