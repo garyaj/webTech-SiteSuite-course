@@ -92,7 +92,7 @@
     -   Adding JS to a document
     -   Separation of concerns
     -   A first, annotated, example (a simple script that generates
-        tables of content from <h2\> headings)
+        tables of content from <h2> headings)
     -   Basic syntax rules (including semicolons & semicolon insertion)
     -   Variables
     -   Operators (including typeof, the comma operator, strict
