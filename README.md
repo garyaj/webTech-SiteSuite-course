@@ -2,7 +2,7 @@
 -   Introduction
     -   Web application architecture
     -   How the HTTP protocol works
-        -   Objectives: to give simple explanation of how the web works
+        -   Objectives: to give a simple explanation of how the web works
         -   Process: Lecture with slides; student explores web page via browser
         -   Outcome: Student can open an HTML document in a browser as source code
                      and name or indicate the various features of the document.
@@ -10,27 +10,60 @@
 -   A small web application example (an AJAX shopping cart)
     in order for the students to get an idea about how everything clicks together
     -   Objectives: to give a more detailed explanation of how the web works
-        Process: Lecture with slides; student explores web page via browser
-        Outcome: Student can open an HTML document and indicate the
+    -   Process: Lecture with slides; student explores web page via browser
+    -   Outcome: Student can open an HTML document and indicate the
                  various parts of the document.
 
 -   HTML(5)
+    -   Objectives: to explain and demonstrate sufficient information about the
+        structure and content of an HTML document to allow a student to create
+        and deploy a simple HTML web page on a web server.
+    -   Process: Lecture with slides; demonstration; student explores and edits simple web pages via browser
+    -   Outcome: Student can create and deploy a simple, unstyled, HTML document to a web server for display 
+        in a browser. 
+
     -   Basic structure of an HTML document
+        -   Objectives: to explain the structure of an HTML document
+        -   Process: Lecture with slides; student creates a simple web page via browser
+        -   Outcome: Student can create a simple HTML document and display it
+            on a browser
     -   Content model, block vs inline elements
+        -   Objectives: to explain how the content model works and the
+            differences between block and inline elements 
+        -   Process: Lecture with slides; demonstration of online document;
+                     student adds block and inline elements to existing
+                     document
+        -   Outcome: Student can create a simple HTML document containing block
+            and inline elements
     -   Basic HTML elements
         -   headings & paragraphs
         -   lists (ordered, unordered, definition lists)
         -   tables
         -   grouping elements (div & span)
+            -   Objectives: to explain and demonstrate some HTML display
+                elements
+            -   Process: Lecture; demonstration ; student creates an HTML
+                document containing these elements and explores their effects
+            -   Outcome: Student is able to create and display an HTML document
+                containing the basic HTML display elements.
 
     -   Doctypes, the HTML5 doctype
+        -   A brief history of HTML
+        -   Modern simplification
     -   HTML Validation
+        -   What is validation, how to do it, why we do it.
+            -   Objectives: to explain why validation is important in HTML
+            -   Process: Lecture with slides; student runs a validator on a simple web page via browser
+            -   Outcome: Student can create a valid HTML document.
     -   HTML forms
         -   How forms work, GET vs POST
         -   Form controls, shared attributes
         -   The various input types (+ the new ones HTML5 brings)
         -   Other form controls (buttons, <select\> lists, textareas)
         -   Basic form accessibility (labels & fieldsets)
+            -   Objectives: to explain HTML forms and the various form elements
+            -   Process: Lecture with slides; student creates a simple web form 
+            -   Outcome: Student can create a simple web form and run it
 
 -   CSS
     -   CSS standards
@@ -49,6 +82,10 @@
         -   Simple selectors & simple selector sequences
         -   Combinators (all 4)
         -   Selector grouping
+            -   Objectives: to explain and demonstrate web page styling using
+                CSS
+            -   Process: Lecture with slides; online demonstation; student adds CSS elements to a simple web form 
+            -   Outcome: Student can create a simple web form and run it
 
     -   Cascading & Inheritance
         -   The problem: Conflicts
