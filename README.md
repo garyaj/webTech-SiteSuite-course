@@ -1,50 +1,50 @@
 ##### Plagiarised from Lea Verou's [Organizing a university course on modern Web development](http://leaverou.me/2010/07/organizing-a-university-course-on-modern-web-development/)
--   Introduction
+-   **Introduction**
     -   Web application architecture
     -   How the HTTP protocol works
-        -   Objectives: to give a simple explanation of how the web works
-        -   Process: Lecture with slides; student explores web page via browser
-        -   Outcome: Student can open an HTML document in a browser as source code
+        -   **Objectives:** to give a simple explanation of how the web works
+        -   **Process:** Lecture with slides; student explores web page via browser
+        -   **Outcome:** Student can open an HTML document in a browser as source code
                      and name or indicate the various features of the document.
 
 -   A small web application example (an AJAX shopping cart)
     in order for the students to get an idea about how everything clicks together
-    -   Objectives: to give a more detailed explanation of how the web works
-    -   Process: Lecture with slides; student explores web page via browser
-    -   Outcome: Student can open an HTML document and indicate the
+    -   **Objectives:** to give a more detailed explanation of how the web works
+    -   **Process:** Lecture with slides; student explores web page via browser
+    -   **Outcome:** Student can open an HTML document and indicate the
                  various parts of the document.
 
--   HTML(5)
-    -   Objectives: to explain and demonstrate sufficient information about the
+-   **HTML(5)**
+    -   **Objectives:** to explain and demonstrate sufficient information about the
         structure and content of an HTML document to allow a student to create
         and deploy a simple HTML web page on a web server.
-    -   Process: Lecture with slides; demonstration; student explores and edits simple web pages via browser
-    -   Outcome: Student can create and deploy a simple, unstyled, HTML document to a web server for display 
+    -   **Process:** Lecture with slides; demonstration; student explores and edits simple web pages via browser
+    -   **Outcome:** Student can create and deploy a simple, unstyled, HTML document to a web server for display 
         in a browser. 
 
     -   Basic structure of an HTML document
-        -   Objectives: to explain the structure of an HTML document
-        -   Process: Lecture with slides; student creates a simple web page via browser
-        -   Outcome: Student can create a simple HTML document and display it
+        -   **Objectives:** to explain the structure of an HTML document
+        -   **Process:** Lecture with slides; student creates a simple web page via browser
+        -   **Outcome:** Student can create a simple HTML document and display it
             on a browser
     -   Content model, block vs inline elements
-        -   Objectives: to explain how the content model works and the
+        -   **Objectives:** to explain how the content model works and the
             differences between block and inline elements 
-        -   Process: Lecture with slides; demonstration of online document;
+        -   **Process:** Lecture with slides; demonstration of online document;
                      student adds block and inline elements to existing
                      document
-        -   Outcome: Student can create a simple HTML document containing block
+        -   **Outcome:** Student can create a simple HTML document containing block
             and inline elements
     -   Basic HTML elements
         -   headings & paragraphs
         -   lists (ordered, unordered, definition lists)
         -   tables
         -   grouping elements (div & span)
-            -   Objectives: to explain and demonstrate some HTML display
+            -   **Objectives:** to explain and demonstrate some HTML display
                 elements
-            -   Process: Lecture; demonstration ; student creates an HTML
+            -   **Process:** Lecture; demonstration ; student creates an HTML
                 document containing these elements and explores their effects
-            -   Outcome: Student is able to create and display an HTML document
+            -   **Outcome:** Student is able to create and display an HTML document
                 containing the basic HTML display elements.
 
     -   Doctypes, the HTML5 doctype
@@ -52,24 +52,24 @@
         -   Modern simplification
     -   HTML Validation
         -   What is validation, how to do it, why we do it.
-            -   Objectives: to explain why validation is important in HTML
-            -   Process: Lecture with slides; student runs a validator on a simple
+            -   **Objectives:** to explain why validation is important in HTML
+            -   **Process:** Lecture with slides; student runs a validator on a simple
                 web page via browser and makes corrections until valid.
-            -   Outcome: Student can create a valid HTML document.
+            -   **Outcome:** Student can create a valid HTML document.
     -   HTML forms
         -   How forms work, GET vs POST
         -   Form controls, shared attributes
         -   The various input types (+ the new ones HTML5 brings)
         -   Other form controls (buttons, <select\> lists, textareas)
         -   Basic form accessibility (labels & fieldsets)
-            -   Objectives: to explain HTML forms and the various form elements
-            -   Process: Lecture with slides; student creates a simple web form 
-            -   Outcome: Student can create a simple web form and run it
+            -   **Objectives:** to explain HTML forms and the various form elements
+            -   **Process:** Lecture with slides; student creates a simple web form 
+            -   **Outcome:** Student can create a simple web form and run it
 
--   CSS
-    -   Objectives: to explain and demonstrate Cascaded Style Sheets
-    -   Process: Lecture with slides; demonstration; student explores CSS elements in a web page via browser
-    -   Outcome: Student can explain or indicate in HTML documents CSS selectors, inheritence, the box model, CSS properties;
+-   **CSS**
+    -   **Objectives:** to explain and demonstrate Cascaded Style Sheets
+    -   **Process:** Lecture with slides; demonstration; student explores CSS elements in a web page via browser
+    -   **Outcome:** Student can explain or indicate in HTML documents CSS selectors, inheritence, the box model, CSS properties;
                  student can add CSS elements to an existing HTML document to
                  obtain various nominated styling effects.
     -   CSS standards
@@ -125,13 +125,13 @@
         -   Dynamic generated content (attributes & counters)
 
 
--   Perl for web server side processing
-    -   Objectives: to impart a rudimentary knowledge the Perl scripting
+-   **Perl for web server side processing**
+    -   **Objectives:** to impart a rudimentary knowledge the Perl scripting
         language; to explain and demonstrate a simpler Perl CGI script
         handler.
-    -   Process: Lecture with slides; demonstration; student explores the
+    -   **Process:** Lecture with slides; demonstration; student explores the
         effects of changes on a simple Perl CGI script.
-    -   Outcome: Student can write a simple Perl script to solve an
+    -   **Outcome:** Student can write a simple Perl script to solve an
         arithmetical problem; student can create and deploy a simple Perl CGI script for
         processing a web form.
 
@@ -143,11 +143,11 @@
     -   Modules, esp. CGI.pm
     -   Web form processing with Perl
 
--   JavaScript
-    -   Objectives: to demonstrate and explain the syntax and properties of
+-   **JavaScript**
+    -   **Objectives:** to demonstrate and explain the syntax and properties of
         JavaScript in an HTML document
-    -   Process: Lecture with slides; demonstration; student explores JS in a web page via browser
-    -   Outcome: Student can add Javascript to an existing HTML to implement
+    -   **Process:** Lecture with slides; demonstration; student explores JS in a web page via browser
+    -   **Outcome:** Student can add Javascript to an existing HTML to implement
         nominated effects and/or appearances.
 
     -   Adding JS to a document
@@ -257,6 +257,8 @@ The students were given an assignment for each section of the course:
 #### 2nd assignment [[pdf](http://leaverou.me/wdclass/assignment2_en.pdf)] [[files](http://leaverou.me/wdclass/assignment2_en.zip)]
 
 #### 3rd assignment [[pdf](http://leaverou.me/wdclass/assignment3_en.pdf)] [[files](http://leaverou.me/wdclass/assignment3_en.zip)]
+
+### Labs
 
 #### 1st lab [[final result](http://leaverou.me/wdclass/lab1/)]
 
