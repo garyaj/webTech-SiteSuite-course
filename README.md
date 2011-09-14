@@ -53,7 +53,8 @@
     -   HTML Validation
         -   What is validation, how to do it, why we do it.
             -   Objectives: to explain why validation is important in HTML
-            -   Process: Lecture with slides; student runs a validator on a simple web page via browser
+            -   Process: Lecture with slides; student runs a validator on a simple
+                web page via browser and makes corrections until valid.
             -   Outcome: Student can create a valid HTML document.
     -   HTML forms
         -   How forms work, GET vs POST
@@ -66,6 +67,11 @@
             -   Outcome: Student can create a simple web form and run it
 
 -   CSS
+    -   Objectives: to explain and demonstrate Cascaded Style Sheets
+    -   Process: Lecture with slides; demonstration; student explores CSS elements in a web page via browser
+    -   Outcome: Student can explain or indicate in HTML documents CSS selectors, inheritence, the box model, CSS properties;
+                 student can add CSS elements to an existing HTML document to
+                 obtain various nominated styling effects.
     -   CSS standards
     -   CSS rules
     -   Validation
@@ -82,11 +88,6 @@
         -   Simple selectors & simple selector sequences
         -   Combinators (all 4)
         -   Selector grouping
-            -   Objectives: to explain and demonstrate web page styling using
-                CSS
-            -   Process: Lecture with slides; online demonstation; student adds CSS elements to a simple web form 
-            -   Outcome: Student can create a simple web form and run it
-
     -   Cascading & Inheritance
         -   The problem: Conflicts
         -   Specificity
@@ -125,6 +126,15 @@
 
 
 -   Perl for web server side processing
+    -   Objectives: to impart a rudimentary knowledge the Perl scripting
+        language; to explain and demonstrate a simpler Perl CGI script
+        handler.
+    -   Process: Lecture with slides; demonstration; student explores the
+        effects of changes on a simple Perl CGI script.
+    -   Outcome: Student can write a simple Perl script to solve an
+        arithmetical problem; student can create and deploy a simple Perl CGI script for
+        processing a web form.
+
     -   Introduction to Perl syntax
         - A whirlwind tour of Perl
     -   Data types: scalar, array, hash
@@ -134,6 +144,12 @@
     -   Web form processing with Perl
 
 -   JavaScript
+    -   Objectives: to demonstrate and explain the syntax and properties of
+        JavaScript in an HTML document
+    -   Process: Lecture with slides; demonstration; student explores JS in a web page via browser
+    -   Outcome: Student can add Javascript to an existing HTML to implement
+        nominated effects and/or appearances.
+
     -   Adding JS to a document
     -   Separation of concerns
     -   A first, annotated, example (a simple script that generates
@@ -212,13 +228,6 @@
         -   *CSSStyleRule* objects
         -   Computed style, getting the computed style
 
-    -   Asynchronous execution
-        -   Timeouts & Intervals
-        -   Background workers
-
-    -   Graphics creation (canvas)
-    -   A brief mention of WebGL (we also showed the video of Google’s
-        web based DOOM game)
     -   Best practices
         -   When JS is disabled
         -   Feature detection
@@ -241,86 +250,13 @@ The students were given an assignment for each section of the course:
 -   1st assignment: Write an unstyled HTML page for a personal website
 -   2nd assignment: Style the simple HTML page with CSS
 -   3rd assignment: Handle a CGI form (input and reply)
--   4th assignment: Enhance page with JavaScript
+-   4th assignment: Enhance a web page with various JavaScript behaviours.
 
 #### 1st assignment [[pdf](http://leaverou.me/wdclass/assignment1_en.pdf)] [[files](http://leaverou.me/wdclass/assignment1_en.zip)]
 
--   I think 1.A and 1.B are excellent exercises to make the
-    students fully understand how CSS selectors work and avoid them
-    resulting to only use the 4-5 basic ones just because they don’t
-    understand the rest (like many web developers do). It’s a pity that
-    many of them resulted to online scripts for the conversion (but
-    luckily it was easy to spot: These answers were way more verbose
-    than the corresponding “handmade” ones, and in some cases even
-    incorrect!)
--   I also think 1.C is an excellent exercise for cascading &
-    inheritance practice. Some of the cases were even quite tricky (for
-    instance, the way specificity works for :not() or how grouping
-    works if one of the selectors is invalid) and treated almost all
-    factors that someone should know to predict which rule …overrules.
-    It’s important however that the student justifies the answer,
-    because otherwise they can just test it in a browser and write down
-    the result, without understanding why.
--   I’m not sure yet if freeform questions were a good idea, but
-    (hopefully) they got them to practice their critical thinking and
-    do some research (we hadn’t presented :checked and :lang() in
-    class). We didn’t expect many to get the 3rd one right, but we were
-    pleasantly surprised.
--   What I like in 3.A is that I believe it enforces the Separation
-    of Concerns guideline, since they cannot alter the HTML file
-    (something even professionals commonly do to get something done,
-    the quick & dirty way…) so they **have** to move all presentation
-    to the CSS file. It also contained a quite tricky part: Maintaining
-    state without JavaScript, by utilizing the **:checked**
-    pseudo-class and some combinators (a technique made popular quite
-    recently by [Ryan Seddon](http://www.thecssninja.com/)). Obviously,
-    this is not a good way to change views in a photo gallery (too much
-    wasted bandwidth), but it was perfect as a CSS exercise. To my
-    surprise, more than half of the students got it right, which
-    indicates that we probably did a good job explaining CSS Selectors
-    ![:)](http://leaverou.me/wp-includes/images/smilies/icon_smile.gif)
-
 #### 2nd assignment [[pdf](http://leaverou.me/wdclass/assignment2_en.pdf)] [[files](http://leaverou.me/wdclass/assignment2_en.zip)]
 
--   I like exercise 1 because it teaches them how they can take
-    somebody else’s work, extend it and make it more generic and
-    useful. This is something that’s frequently done in web
-    development. By the way, the deviation in the solutions was quite
-    interesting. Others had implemented a recursive algorithm, others
-    approached it in an Object Oriented manner and others took the
-    classic iterative route.
--   Exercise 2 lets them practice event delegation, unobtrusive
-    progressive enhancement via JavaScript, decisions to improve
-    performance (and still, it’s unbelievable how many students made
-    choices that were obviously terrible performance-wise. I still
-    remember one script that created another DOM element
-    **on every mouseover**!)
--   Exercise 3 combines many of the technologies they learned in
-    the previous lectures. It also lets them practice their critical
-    thinking by comparing the methods afterwards. Most students picked
-    the CSS method, which would also be my choice, for such a simple
-    bar chart (however, anything rational got full points, I don’t
-    think there’s a correct answer here, it depends on many factors).
--   I like exercise 4 because it introduces them to the concept of
-    writing JavaScript that is intended to be used by other developers,
-    and not just in a particular project (along with 2 perhaps).
-    However, none of the students fully understood what it was about.
-    All of them fired the HTTP request when ajaxForm() was called and
-    most of them also implemented callback() and errorCallback(), which
-    wasn’t supposed to be their job.
--   Exercise 5, besides serving well as regular JavaScript
-    practice, it also lets them learn more about cutting edge
-    technologies such as **localStorage**, **Web databases** or
-    **offline web apps**.
-
 #### 3rd assignment [[pdf](http://leaverou.me/wdclass/assignment3_en.pdf)] [[files](http://leaverou.me/wdclass/assignment3_en.zip)]
-
-In this assignment, the students practiced in PHP, combined
-everything else they’ve learned and understood better how
-everything clicks together to bring a fully-fledged web application
-to life. We didn’t get many submissions, since most students were
-busy with other assignments these days but most of the ones we got
-were awesome, I had an extremely hard time picking the best one.
 
 #### 1st lab [[final result](http://leaverou.me/wdclass/lab1/)]
 
