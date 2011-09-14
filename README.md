@@ -154,8 +154,8 @@
 
 -   **Perl for web server side processing**
 
-    **Objectives:** to impart a rudimentary knowledge the Perl scripting
-        language; to explain and demonstrate a simpler Perl CGI script
+    **Objectives:** to impart a rudimentary knowledge of the Perl scripting
+        language; to explain and demonstrate a simple Perl CGI script
         handler.<br />
     **Process:** Lecture with slides; demonstration; student explores the
         effects of changes on a simple Perl CGI script.<br />
